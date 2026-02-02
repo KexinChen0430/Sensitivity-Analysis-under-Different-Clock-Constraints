@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : fma_32bit_variants
+Version: Q-2019.12-SP4
+Date   : Mon Feb  2 22:06:51 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    sky130_fd_sc_hd__tt_025C_1v80 (File: /Business/EDA_xq_company/wangyipeng/kexin/sky130_fd_sc_hd__tt_025C_1v80.db)
+
+Number of ports:                          416
+Number of nets:                          5969
+Number of cells:                         4947
+Number of combinational cells:           4947
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        842
+Number of references:                      33
+
+Combinational area:              41942.725631
+Buf/Inv area:                     4849.651209
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 41942.725631
+Total area:                 undefined
+1
