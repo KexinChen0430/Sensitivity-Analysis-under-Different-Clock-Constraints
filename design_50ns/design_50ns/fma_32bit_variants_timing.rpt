@@ -1,0 +1,308 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : fma_32bit_variants
+Version: Q-2019.12-SP4
+Date   : Mon Feb  2 22:19:25 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: b[2] (input port)
+  Endpoint: y2[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fma_32bit_variants Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[2] (in)                                0.00       0.00 f
+  U220/Y (sky130_fd_sc_hd__o2bb2ai_1)      0.11       0.11 f
+  U279/Y (sky130_fd_sc_hd__nor2_1)         1.10       1.21 r
+  U746/Y (sky130_fd_sc_hd__a22oi_1)        0.15       1.36 f
+  U2491/Y (sky130_fd_sc_hd__nand2_1)       0.16       1.52 r
+  U2492/Y (sky130_fd_sc_hd__xnor2_1)       0.10       1.62 f
+  U2607/COUT (sky130_fd_sc_hd__fa_1)       0.42       2.03 f
+  U544/COUT (sky130_fd_sc_hd__fa_1)        0.39       2.43 f
+  U2605/COUT (sky130_fd_sc_hd__fa_1)       0.39       2.82 f
+  U526/COUT (sky130_fd_sc_hd__fa_1)        0.39       3.21 f
+  U2604/COUT (sky130_fd_sc_hd__fa_1)       0.39       3.60 f
+  U568/COUT (sky130_fd_sc_hd__fa_1)        0.39       3.99 f
+  U2603/COUT (sky130_fd_sc_hd__fa_1)       0.39       4.38 f
+  U558/COUT (sky130_fd_sc_hd__fa_1)        0.39       4.77 f
+  U2602/COUT (sky130_fd_sc_hd__fa_1)       0.39       5.16 f
+  U560/COUT (sky130_fd_sc_hd__fa_1)        0.39       5.56 f
+  U2601/COUT (sky130_fd_sc_hd__fa_1)       0.39       5.95 f
+  U562/COUT (sky130_fd_sc_hd__fa_1)        0.39       6.34 f
+  U2600/COUT (sky130_fd_sc_hd__fa_1)       0.39       6.73 f
+  U564/COUT (sky130_fd_sc_hd__fa_1)        0.39       7.12 f
+  U2599/COUT (sky130_fd_sc_hd__fa_1)       0.39       7.51 f
+  U566/COUT (sky130_fd_sc_hd__fa_1)        0.39       7.90 f
+  U2598/COUT (sky130_fd_sc_hd__fa_1)       0.39       8.30 f
+  U546/COUT (sky130_fd_sc_hd__fa_1)        0.39       8.69 f
+  U2597/COUT (sky130_fd_sc_hd__fa_1)       0.39       9.08 f
+  U528/COUT (sky130_fd_sc_hd__fa_1)        0.39       9.47 f
+  U2596/COUT (sky130_fd_sc_hd__fa_1)       0.39       9.86 f
+  U548/COUT (sky130_fd_sc_hd__fa_1)        0.39      10.25 f
+  U2595/COUT (sky130_fd_sc_hd__fa_1)       0.39      10.64 f
+  U550/COUT (sky130_fd_sc_hd__fa_1)        0.39      11.04 f
+  U2594/COUT (sky130_fd_sc_hd__fa_1)       0.39      11.43 f
+  U552/COUT (sky130_fd_sc_hd__fa_1)        0.39      11.82 f
+  U2593/COUT (sky130_fd_sc_hd__fa_1)       0.39      12.21 f
+  U554/COUT (sky130_fd_sc_hd__fa_1)        0.39      12.60 f
+  U2592/COUT (sky130_fd_sc_hd__fa_1)       0.39      12.99 f
+  U556/COUT (sky130_fd_sc_hd__fa_1)        0.39      13.38 f
+  U2591/COUT (sky130_fd_sc_hd__fa_1)       0.39      13.77 f
+  U542/COUT (sky130_fd_sc_hd__fa_1)        0.39      14.17 f
+  U2608/COUT (sky130_fd_sc_hd__fa_1)       0.39      14.56 f
+  U522/COUT (sky130_fd_sc_hd__fa_1)        0.39      14.95 f
+  U2609/COUT (sky130_fd_sc_hd__fa_1)       0.39      15.34 f
+  U532/COUT (sky130_fd_sc_hd__fa_1)        0.39      15.73 f
+  U2610/COUT (sky130_fd_sc_hd__fa_1)       0.39      16.12 f
+  U534/COUT (sky130_fd_sc_hd__fa_1)        0.39      16.51 f
+  U2611/COUT (sky130_fd_sc_hd__fa_1)       0.39      16.91 f
+  U2612/COUT (sky130_fd_sc_hd__fa_1)       0.39      17.30 f
+  U2613/COUT (sky130_fd_sc_hd__fa_1)       0.39      17.69 f
+  U2614/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.08 f
+  U2615/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.47 f
+  U2616/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.86 f
+  U2617/COUT (sky130_fd_sc_hd__fa_1)       0.39      19.25 f
+  U2618/COUT (sky130_fd_sc_hd__fa_1)       0.39      19.64 f
+  U2619/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.04 f
+  U2620/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.43 f
+  U2621/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.82 f
+  U2622/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.21 f
+  U2623/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.60 f
+  U2624/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.99 f
+  U524/COUT (sky130_fd_sc_hd__fa_1)        0.39      22.38 f
+  U2625/COUT (sky130_fd_sc_hd__fa_1)       0.39      22.78 f
+  U530/COUT (sky130_fd_sc_hd__fa_1)        0.39      23.17 f
+  U2626/COUT (sky130_fd_sc_hd__fa_1)       0.39      23.56 f
+  U540/COUT (sky130_fd_sc_hd__fa_1)        0.39      23.95 f
+  U2627/COUT (sky130_fd_sc_hd__fa_1)       0.39      24.34 f
+  U536/COUT (sky130_fd_sc_hd__fa_1)        0.39      24.73 f
+  U2628/COUT (sky130_fd_sc_hd__fa_1)       0.39      25.12 f
+  U538/COUT (sky130_fd_sc_hd__fa_1)        0.39      25.52 f
+  U2629/COUT (sky130_fd_sc_hd__fa_1)       0.39      25.91 f
+  U2590/Y (sky130_fd_sc_hd__xnor2_1)       0.15      26.06 f
+  U668/X (sky130_fd_sc_hd__xor2_1)         0.22      26.28 f
+  U669/Y (sky130_fd_sc_hd__inv_8)          1.12      27.40 r
+  U666/Y (sky130_fd_sc_hd__xnor2_1)        0.39      27.78 f
+  U667/Y (sky130_fd_sc_hd__inv_8)          1.19      28.97 r
+  y2[63] (out)                             1.73      30.70 r
+  data arrival time                                  30.70
+
+  max_delay                               50.00      50.00
+  output external delay                    0.00      50.00
+  data required time                                 50.00
+  -----------------------------------------------------------
+  data required time                                 50.00
+  data arrival time                                 -30.70
+  -----------------------------------------------------------
+  slack (MET)                                        19.30
+
+
+  Startpoint: b[2] (input port)
+  Endpoint: y2[62] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fma_32bit_variants Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[2] (in)                                0.00       0.00 f
+  U220/Y (sky130_fd_sc_hd__o2bb2ai_1)      0.11       0.11 f
+  U279/Y (sky130_fd_sc_hd__nor2_1)         1.10       1.21 r
+  U746/Y (sky130_fd_sc_hd__a22oi_1)        0.15       1.36 f
+  U2491/Y (sky130_fd_sc_hd__nand2_1)       0.16       1.52 r
+  U2492/Y (sky130_fd_sc_hd__xnor2_1)       0.10       1.62 f
+  U2607/COUT (sky130_fd_sc_hd__fa_1)       0.42       2.03 f
+  U544/COUT (sky130_fd_sc_hd__fa_1)        0.39       2.43 f
+  U2605/COUT (sky130_fd_sc_hd__fa_1)       0.39       2.82 f
+  U526/COUT (sky130_fd_sc_hd__fa_1)        0.39       3.21 f
+  U2604/COUT (sky130_fd_sc_hd__fa_1)       0.39       3.60 f
+  U568/COUT (sky130_fd_sc_hd__fa_1)        0.39       3.99 f
+  U2603/COUT (sky130_fd_sc_hd__fa_1)       0.39       4.38 f
+  U558/COUT (sky130_fd_sc_hd__fa_1)        0.39       4.77 f
+  U2602/COUT (sky130_fd_sc_hd__fa_1)       0.39       5.16 f
+  U560/COUT (sky130_fd_sc_hd__fa_1)        0.39       5.56 f
+  U2601/COUT (sky130_fd_sc_hd__fa_1)       0.39       5.95 f
+  U562/COUT (sky130_fd_sc_hd__fa_1)        0.39       6.34 f
+  U2600/COUT (sky130_fd_sc_hd__fa_1)       0.39       6.73 f
+  U564/COUT (sky130_fd_sc_hd__fa_1)        0.39       7.12 f
+  U2599/COUT (sky130_fd_sc_hd__fa_1)       0.39       7.51 f
+  U566/COUT (sky130_fd_sc_hd__fa_1)        0.39       7.90 f
+  U2598/COUT (sky130_fd_sc_hd__fa_1)       0.39       8.30 f
+  U546/COUT (sky130_fd_sc_hd__fa_1)        0.39       8.69 f
+  U2597/COUT (sky130_fd_sc_hd__fa_1)       0.39       9.08 f
+  U528/COUT (sky130_fd_sc_hd__fa_1)        0.39       9.47 f
+  U2596/COUT (sky130_fd_sc_hd__fa_1)       0.39       9.86 f
+  U548/COUT (sky130_fd_sc_hd__fa_1)        0.39      10.25 f
+  U2595/COUT (sky130_fd_sc_hd__fa_1)       0.39      10.64 f
+  U550/COUT (sky130_fd_sc_hd__fa_1)        0.39      11.04 f
+  U2594/COUT (sky130_fd_sc_hd__fa_1)       0.39      11.43 f
+  U552/COUT (sky130_fd_sc_hd__fa_1)        0.39      11.82 f
+  U2593/COUT (sky130_fd_sc_hd__fa_1)       0.39      12.21 f
+  U554/COUT (sky130_fd_sc_hd__fa_1)        0.39      12.60 f
+  U2592/COUT (sky130_fd_sc_hd__fa_1)       0.39      12.99 f
+  U556/COUT (sky130_fd_sc_hd__fa_1)        0.39      13.38 f
+  U2591/COUT (sky130_fd_sc_hd__fa_1)       0.39      13.77 f
+  U542/COUT (sky130_fd_sc_hd__fa_1)        0.39      14.17 f
+  U2608/COUT (sky130_fd_sc_hd__fa_1)       0.39      14.56 f
+  U522/COUT (sky130_fd_sc_hd__fa_1)        0.39      14.95 f
+  U2609/COUT (sky130_fd_sc_hd__fa_1)       0.39      15.34 f
+  U532/COUT (sky130_fd_sc_hd__fa_1)        0.39      15.73 f
+  U2610/COUT (sky130_fd_sc_hd__fa_1)       0.39      16.12 f
+  U534/COUT (sky130_fd_sc_hd__fa_1)        0.39      16.51 f
+  U2611/COUT (sky130_fd_sc_hd__fa_1)       0.39      16.91 f
+  U2612/COUT (sky130_fd_sc_hd__fa_1)       0.39      17.30 f
+  U2613/COUT (sky130_fd_sc_hd__fa_1)       0.39      17.69 f
+  U2614/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.08 f
+  U2615/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.47 f
+  U2616/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.86 f
+  U2617/COUT (sky130_fd_sc_hd__fa_1)       0.39      19.25 f
+  U2618/COUT (sky130_fd_sc_hd__fa_1)       0.39      19.64 f
+  U2619/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.04 f
+  U2620/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.43 f
+  U2621/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.82 f
+  U2622/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.21 f
+  U2623/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.60 f
+  U2624/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.99 f
+  U524/COUT (sky130_fd_sc_hd__fa_1)        0.39      22.38 f
+  U2625/COUT (sky130_fd_sc_hd__fa_1)       0.39      22.78 f
+  U530/COUT (sky130_fd_sc_hd__fa_1)        0.39      23.17 f
+  U2626/COUT (sky130_fd_sc_hd__fa_1)       0.39      23.56 f
+  U540/COUT (sky130_fd_sc_hd__fa_1)        0.39      23.95 f
+  U2627/COUT (sky130_fd_sc_hd__fa_1)       0.39      24.34 f
+  U536/COUT (sky130_fd_sc_hd__fa_1)        0.39      24.73 f
+  U2628/COUT (sky130_fd_sc_hd__fa_1)       0.39      25.12 f
+  U538/COUT (sky130_fd_sc_hd__fa_1)        0.39      25.52 f
+  U2629/SUM (sky130_fd_sc_hd__fa_1)        0.50      26.02 r
+  U13/Y (sky130_fd_sc_hd__clkinv_1)        0.15      26.16 f
+  U607/Y (sky130_fd_sc_hd__inv_8)          1.11      27.27 r
+  U420/SUM (sky130_fd_sc_hd__ha_1)         0.26      27.53 r
+  U412/Y (sky130_fd_sc_hd__clkinv_1)       0.15      27.68 f
+  U419/Y (sky130_fd_sc_hd__inv_8)          1.11      28.78 r
+  y2[62] (out)                             1.73      30.52 r
+  data arrival time                                  30.52
+
+  max_delay                               50.00      50.00
+  output external delay                    0.00      50.00
+  data required time                                 50.00
+  -----------------------------------------------------------
+  data required time                                 50.00
+  data arrival time                                 -30.52
+  -----------------------------------------------------------
+  slack (MET)                                        19.48
+
+
+  Startpoint: b[2] (input port)
+  Endpoint: y2[61] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fma_32bit_variants Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[2] (in)                                0.00       0.00 f
+  U220/Y (sky130_fd_sc_hd__o2bb2ai_1)      0.11       0.11 f
+  U279/Y (sky130_fd_sc_hd__nor2_1)         1.10       1.21 r
+  U746/Y (sky130_fd_sc_hd__a22oi_1)        0.15       1.36 f
+  U2491/Y (sky130_fd_sc_hd__nand2_1)       0.16       1.52 r
+  U2492/Y (sky130_fd_sc_hd__xnor2_1)       0.10       1.62 f
+  U2607/COUT (sky130_fd_sc_hd__fa_1)       0.42       2.03 f
+  U544/COUT (sky130_fd_sc_hd__fa_1)        0.39       2.43 f
+  U2605/COUT (sky130_fd_sc_hd__fa_1)       0.39       2.82 f
+  U526/COUT (sky130_fd_sc_hd__fa_1)        0.39       3.21 f
+  U2604/COUT (sky130_fd_sc_hd__fa_1)       0.39       3.60 f
+  U568/COUT (sky130_fd_sc_hd__fa_1)        0.39       3.99 f
+  U2603/COUT (sky130_fd_sc_hd__fa_1)       0.39       4.38 f
+  U558/COUT (sky130_fd_sc_hd__fa_1)        0.39       4.77 f
+  U2602/COUT (sky130_fd_sc_hd__fa_1)       0.39       5.16 f
+  U560/COUT (sky130_fd_sc_hd__fa_1)        0.39       5.56 f
+  U2601/COUT (sky130_fd_sc_hd__fa_1)       0.39       5.95 f
+  U562/COUT (sky130_fd_sc_hd__fa_1)        0.39       6.34 f
+  U2600/COUT (sky130_fd_sc_hd__fa_1)       0.39       6.73 f
+  U564/COUT (sky130_fd_sc_hd__fa_1)        0.39       7.12 f
+  U2599/COUT (sky130_fd_sc_hd__fa_1)       0.39       7.51 f
+  U566/COUT (sky130_fd_sc_hd__fa_1)        0.39       7.90 f
+  U2598/COUT (sky130_fd_sc_hd__fa_1)       0.39       8.30 f
+  U546/COUT (sky130_fd_sc_hd__fa_1)        0.39       8.69 f
+  U2597/COUT (sky130_fd_sc_hd__fa_1)       0.39       9.08 f
+  U528/COUT (sky130_fd_sc_hd__fa_1)        0.39       9.47 f
+  U2596/COUT (sky130_fd_sc_hd__fa_1)       0.39       9.86 f
+  U548/COUT (sky130_fd_sc_hd__fa_1)        0.39      10.25 f
+  U2595/COUT (sky130_fd_sc_hd__fa_1)       0.39      10.64 f
+  U550/COUT (sky130_fd_sc_hd__fa_1)        0.39      11.04 f
+  U2594/COUT (sky130_fd_sc_hd__fa_1)       0.39      11.43 f
+  U552/COUT (sky130_fd_sc_hd__fa_1)        0.39      11.82 f
+  U2593/COUT (sky130_fd_sc_hd__fa_1)       0.39      12.21 f
+  U554/COUT (sky130_fd_sc_hd__fa_1)        0.39      12.60 f
+  U2592/COUT (sky130_fd_sc_hd__fa_1)       0.39      12.99 f
+  U556/COUT (sky130_fd_sc_hd__fa_1)        0.39      13.38 f
+  U2591/COUT (sky130_fd_sc_hd__fa_1)       0.39      13.77 f
+  U542/COUT (sky130_fd_sc_hd__fa_1)        0.39      14.17 f
+  U2608/COUT (sky130_fd_sc_hd__fa_1)       0.39      14.56 f
+  U522/COUT (sky130_fd_sc_hd__fa_1)        0.39      14.95 f
+  U2609/COUT (sky130_fd_sc_hd__fa_1)       0.39      15.34 f
+  U532/COUT (sky130_fd_sc_hd__fa_1)        0.39      15.73 f
+  U2610/COUT (sky130_fd_sc_hd__fa_1)       0.39      16.12 f
+  U534/COUT (sky130_fd_sc_hd__fa_1)        0.39      16.51 f
+  U2611/COUT (sky130_fd_sc_hd__fa_1)       0.39      16.91 f
+  U2612/COUT (sky130_fd_sc_hd__fa_1)       0.39      17.30 f
+  U2613/COUT (sky130_fd_sc_hd__fa_1)       0.39      17.69 f
+  U2614/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.08 f
+  U2615/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.47 f
+  U2616/COUT (sky130_fd_sc_hd__fa_1)       0.39      18.86 f
+  U2617/COUT (sky130_fd_sc_hd__fa_1)       0.39      19.25 f
+  U2618/COUT (sky130_fd_sc_hd__fa_1)       0.39      19.64 f
+  U2619/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.04 f
+  U2620/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.43 f
+  U2621/COUT (sky130_fd_sc_hd__fa_1)       0.39      20.82 f
+  U2622/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.21 f
+  U2623/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.60 f
+  U2624/COUT (sky130_fd_sc_hd__fa_1)       0.39      21.99 f
+  U524/COUT (sky130_fd_sc_hd__fa_1)        0.39      22.38 f
+  U2625/COUT (sky130_fd_sc_hd__fa_1)       0.39      22.78 f
+  U530/COUT (sky130_fd_sc_hd__fa_1)        0.39      23.17 f
+  U2626/COUT (sky130_fd_sc_hd__fa_1)       0.39      23.56 f
+  U540/COUT (sky130_fd_sc_hd__fa_1)        0.39      23.95 f
+  U2627/COUT (sky130_fd_sc_hd__fa_1)       0.39      24.34 f
+  U536/COUT (sky130_fd_sc_hd__fa_1)        0.39      24.73 f
+  U2628/COUT (sky130_fd_sc_hd__fa_1)       0.39      25.12 f
+  U538/SUM (sky130_fd_sc_hd__fa_1)         0.50      25.62 r
+  U14/Y (sky130_fd_sc_hd__clkinv_1)        0.15      25.77 f
+  U537/Y (sky130_fd_sc_hd__inv_8)          1.11      26.88 r
+  U2630/SUM (sky130_fd_sc_hd__ha_1)        0.26      27.14 r
+  U411/Y (sky130_fd_sc_hd__clkinv_1)       0.15      27.29 f
+  U428/Y (sky130_fd_sc_hd__inv_8)          1.11      28.39 r
+  y2[61] (out)                             1.73      30.13 r
+  data arrival time                                  30.13
+
+  max_delay                               50.00      50.00
+  output external delay                    0.00      50.00
+  data required time                                 50.00
+  -----------------------------------------------------------
+  data required time                                 50.00
+  data arrival time                                 -30.13
+  -----------------------------------------------------------
+  slack (MET)                                        19.87
+
+
+1
